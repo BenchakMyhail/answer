@@ -1,0 +1,65 @@
+<svg width="125" height="125" viewBox="0 0 125 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    #sign_top {
+      transform-origin: 62px 20px;
+      animation: moving_t 2.5s infinite;
+    }
+    #sign_bottom {
+      transform-origin: 62px 104px;
+      animation: moving_b 2.5s infinite;
+    }
+    @keyframes moving_t {
+      0% {
+        transform: translateX(5px);
+      }
+
+      50% {
+        transform: translateX(-5px);
+      }
+
+      100% {
+        transform: translateX(5px);
+      }
+    }
+    @keyframes moving_b {
+      0% {
+        transform: translateX(-5px);
+      }
+
+      50% {
+        transform: translateX(5px);
+      }
+
+      100% {
+        transform: translateX(-5px);
+      }
+    }
+  </style>
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M11.4 80.6c6 9.3 16.9 15.4 29.2 15.4a35 35 0 0 0 29.2-15.5l-2.9-1.8-1.1 1.6a31.5 31.5 0 0 1-25.2 12.3 31.4 31.4 0 0 1-26.4-14 28.5 28.5 0 0 1 0-31.6 31.4 31.4 0 0 1 26.4-13.9c10.3 0 19.5 4.9 25.1 12.3.5.5.9 1 1.2 1.6l3-1.9-1.4-1.8a35 35 0 0 0-28-13.6A34.8 34.8 0 0 0 11.5 45a32 32 0 0 0 0 35.5Z"
+    fill="#000" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M36.3 91.8c1.5 1.7 3.4 3 5.6 3 2.2 0 4-1.3 5.6-3 1.5-1.8 2.8-4.2 3.8-7 2-5.7 3.3-13.5 3.3-22 0-8.4-1.2-16.2-3.3-21.9-1-2.8-2.3-5.3-3.8-7-1.5-1.7-3.4-3-5.6-3-2.2 0-4.1 1.3-5.6 3a22.8 22.8 0 0 0-3.8 7c-2 5.7-3.3 13.5-3.3 22 0 8.4 1.2 16.2 3.3 21.9 1 2.8 2.3 5.2 3.8 7Zm-.6-8.2a63 63 0 0 1-3-20.8 63 63 0 0 1 3-20.7c1-2.6 2-4.6 3.2-6 1.2-1.3 2.2-1.7 3-1.7.8 0 1.8.4 3 1.7 1.1 1.4 2.2 3.4 3.2 6a63 63 0 0 1 3 20.7 63 63 0 0 1-3 20.8c-1 2.6-2.1 4.6-3.2 6-1.2 1.2-2.2 1.7-3 1.7-.8 0-1.8-.5-3-1.8a19.4 19.4 0 0 1-3.2-6ZM68.4 47.8v-3.4 3.4Z"
+    fill="#000" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M12.8 47.8h53v-3.4h-53v3.4ZM7.7 64.6h57.7V61H7.7v3.5ZM68.4 81.3V78v3.4ZM12.8 81.3h53V78h-53v3.4Z" fill="#000" />
+  <path
+    d="M42 58.8h-3.7v-3h3.8v3ZM49.3 58.8h-3.8v-3h3.8v3ZM38 70.7h-3.8v-3.1H38v3ZM45.2 70.7h-3.8v-3.1h3.8v3ZM96.4 75.6h-3.7v-3.2h3.7v3.2ZM103 75.6h-3.8v-3.2h3.7v3.2ZM109.4 75.6h-3.7v-3.2h3.7v3.2Z"
+    fill="#000" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M63.4 77.8c0 3.8 3 6.8 6.7 6.8h41c3.7 0 6.7-3 6.7-6.8v-30c0-3.7-3-6.7-6.7-6.7h-41c-3.7 0-6.7 3-6.7 6.7v30Zm6.7 2.6a2.6 2.6 0 0 1-2.6-2.6v-30c0-1.4 1.2-2.5 2.6-2.5h41c1.4 0 2.6 1.1 2.6 2.5v30c0 1.5-1.2 2.6-2.6 2.6h-41Z"
+    fill="#000" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M81 54.3h18.9V43.2h-4.1v7H85v-7H81v11ZM109.4 67.6H92.7v2.8h16.7v-2.8Z" fill="#000" />
+  <g id="sign_top">
+    <path d="M46 16.5h-3.7v-3H46v3ZM52.5 16.5h-3.7v-3h3.7v3Z" fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="m89.2 31.1 23.4-11L88.4 9v4.4H56.1V17h35.7v-2.5l12.7 5.8-11.8 5.5v-2.3H41.9v3.4h47.3v4.3Z" fill="#000" />
+  </g>
+  <g id="sign_bottom">
+    <path d="M104.4 100.5h3.8v-3h-3.8v3ZM97.9 100.5h3.8v-3h-3.8v3Z" fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M61.2 115.1V111h47.3v-3.5H57.8v2.3L46 104.2l12.6-5.8v2.5h35.7v-3.5H62V93l-24.2 11.2 23.4 11Z" fill="#000" />
+  </g>
+
+</svg>

@@ -1,0 +1,66 @@
+<svg width="125" height="125" viewBox="0 0 125 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    #line_top {
+      transform-origin: center;
+      animation: moving 2s infinite;
+    }
+    #car{
+      animation: moving_car 2s infinite;
+    }
+    @keyframes moving_car {
+      0% {
+        transform: translateX(2px);
+      }
+
+      50% {
+        transform: translateX(-2px);
+      }
+
+      100% {
+        transform: translateX(2px);
+      }
+    }
+    @keyframes moving {
+      0% {
+        opacity: 0;
+        transform: translateX(100%);
+      }
+
+      1% {
+        opacity: 1;
+        transform: translateX(100%);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateX(-100%)
+      }
+    }
+  </style>
+  <g id="line_top">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2 22H39v-4H12.2v4Z" fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.7 22H7v-4H2.7v4Z" fill="#000" />
+  </g>
+  <g  id="car">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 94.9h17.3v-4H6V30.7h72.2v60.2H40v4h42.3V26.7H2v68.2Z"
+      fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8 82.9H4v4h10.8v-4Z" fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M80.2 82.9H44.4v4h35.8v-4Z" fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M80.2 94.9h8.4v-4h-8.4v4Z" fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M109.2 94.9h13.6V69.6L103.7 40H80.2v4h21.3l17.3 26.8v20h-9.6v4Z"
+      fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M86.6 70.9h33.3v-4H90.6V51.8h17v-4h-21v23Z" fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M120.8 82.9h-7.4v4h7.4v-4Z" fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.2 38.5h70v-4h-70v4Z" fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M17.3 92.9a12.3 12.3 0 1 0 24.6 0 12.3 12.3 0 0 0-24.6 0Zm12.3 8.3a8.3 8.3 0 1 1 0-16.7 8.3 8.3 0 0 1 0 16.7Z"
+      fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M86.6 92.9a12.3 12.3 0 1 0 24.6 0 12.3 12.3 0 0 0-24.6 0Zm12.3 8.3a8.3 8.3 0 1 1 0-16.7 8.3 8.3 0 0 1 0 16.7Z"
+      fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M26.4 93a3.2 3.2 0 1 0 6.4 0 3.2 3.2 0 0 0-6.4 0Zm3.2-.7a.8.8 0 1 1 0 1.6.8.8 0 0 1 0-1.6Z" fill="#000" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M95.7 93a3.2 3.2 0 1 0 6.4 0 3.2 3.2 0 0 0-6.4 0Zm3.2-.8a.8.8 0 1 1 0 1.7.8.8 0 0 1 0-1.7Z" fill="#000" />
+  </g>
+</svg>
