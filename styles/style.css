@@ -212,8 +212,7 @@ textarea {
 }
 /*---------------------------------*/
 body{
-  overflow: hidden;
-  height: 100vh;
+  height: 100%;
 }
 .container {
   display: flex;
@@ -233,7 +232,11 @@ section {
   max-width: 800px;
   border-radius: 50%;
 }
-
+.chart:before {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
 .center-image {
   display: block;
   position: absolute;
@@ -287,11 +290,7 @@ display: block;
   }
 }
 
-.chart:before {
-  content: "";
-  display: block;
-  padding-top: 100%;
-}
+
 .chart:after {
   content: "";
   position: absolute;
