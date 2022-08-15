@@ -2,7 +2,7 @@
   <style>
     #opacity_block {
       transform-origin: 146px 146px;
-      animation: inimate__one 8s infinite linear;
+      animation: inimate__one 10s infinite linear;
     }
 
     @keyframes inimate__one {
